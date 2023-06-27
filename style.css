@@ -99,13 +99,22 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
 }
 
 .task-container p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: #fff;
+}
+
+.task-container button {
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.3rem;
+    text-decoration: underline;
 }
