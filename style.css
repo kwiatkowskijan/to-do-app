@@ -25,10 +25,31 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     margin-bottom: 20px;
+}
+
+.ref {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+}
+
+.ref a {
+    font-size: 2.5rem;
+    margin-right: 10px;
+    color: #000000;
+}
+
+.ref p {
+    font-size: 1.2rem;
+    margin-right: 15px;
+    text-transform: uppercase;
 }
 
 #add-task-form {
@@ -82,6 +103,20 @@ body {
     color: rgb(19, 19, 19);
 }
 
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.title h1 {
+    font-size: 4rem;
+    letter-spacing: 4px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
 .tasks-container {
     width: 100%;
     height: 70vh;
@@ -107,14 +142,15 @@ body {
 .task-container p {
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
 }
 
 .task-container button {
     background: rgba(0, 0, 0, 0);
     border: 0;
-    color: #fff;
+    color: #000;
     cursor: pointer;
-    font-size: 1.3rem;
-    text-decoration: underline;
+    font-size: 1rem;
+    /* text-decoration: underline; */
+    text-transform: uppercase;
 }
