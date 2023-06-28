@@ -17,7 +17,7 @@ const task = () => {
     });
     newElement.appendChild(deleteButton);
 
-    tasksContainer.prepend(newElement);
+    tasksContainer.append(newElement);
 
     taskInput.value = "";
     
